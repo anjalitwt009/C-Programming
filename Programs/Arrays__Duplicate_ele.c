@@ -31,10 +31,12 @@ int array_duplicates(int An[], int n)
 int main()
 {
     int n, i;
-    int An[n];
     
     printf ("Enter the size of array ");
     scanf ("%d", &n);
+    
+    int An[n];
+    
     printf ("Enter the array elements\n");
     for (i = 0; i < n; i++)
     {
